@@ -1,0 +1,25 @@
+// message class
+  .messages{
+    border: 1px solid $borderColor;
+    padding: 16px;
+    color: $whiteColor;
+ }
+
+.success{
+   @extend .messages;
+    background-color: $backgroundGreen;
+}
+.error{
+    @extend .messages;
+    background-color: $backgroundRed;
+   }
+    .error:hover{
+        @extend .messages;
+   background-color: $backgroundGreen;
+   transition: .5s;
+}
+
+.warning{
+    @extend .messages;
+    background-color: $backgroundOrange;
+}

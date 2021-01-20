@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "learning-sass",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch src/scss -o src/css --source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tselawi/challenge-sass.git"
+  },
+  "author": "Tariq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tselawi/challenge-sass/issues"
+  },
+  "homepage": "https://github.com/Tselawi/challenge-sass#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

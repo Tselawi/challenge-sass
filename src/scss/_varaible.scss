@@ -1,0 +1,28 @@
+//color
+$bodyColor: #6b717f;
+$borderColor:#8C8C8C;
+$boxShadowColor:#6b717f;
+$backgroundBlack:#000;
+$headerColor:#BF4080;
+$whiteColor:#fff;
+$backgroundGreen:green;
+$backgroundRed:red;
+$backgroundOrange:orange;
+
+
+//varaible
+$topbtm:0;
+$padding:16px;
+// mixin function
+//main
+
+@mixin Padding{ 
+    padding-bottom:$topbtm;
+    padding-top: $topbtm;
+}
+
+@mixin boxShadow($property) {
+    -webkit-box-shadow:$property;
+    -moz-box-shadow: $property;
+    box-shadow:$property;
+}
