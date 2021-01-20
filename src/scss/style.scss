@@ -3,3 +3,17 @@
 @import "header";
 @import "messages";
 
+
+
+$base-color: blue;
+$redColor: red;
+
+@for $i from 1 through 10 {
+  .advantages:nth-child(#{$i}){
+    background-color: lighten($base-color, $i * 10%);
+  }
+  .adv-item:nth-child(#{$i}){
+      color: darken($redColor, $i * 10%);
+  }
+}
+

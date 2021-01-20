@@ -4,7 +4,7 @@
   "description": "learning-sass",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --watch src/scss -o src/css --source-map"
+    "scss": "node-sass --watch src/scss -o src/css"
   },
   "repository": {
     "type": "git",

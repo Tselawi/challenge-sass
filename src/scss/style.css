@@ -113,4 +113,84 @@ h3 {
 .warning {
   background-color: orange;
 }
+
+.advantages:nth-child(1) {
+  background-color: #3333ff;
+}
+
+.adv-item:nth-child(1) {
+  color: #cc0000;
+}
+
+.advantages:nth-child(2) {
+  background-color: #6666ff;
+}
+
+.adv-item:nth-child(2) {
+  color: #990000;
+}
+
+.advantages:nth-child(3) {
+  background-color: #9999ff;
+}
+
+.adv-item:nth-child(3) {
+  color: #660000;
+}
+
+.advantages:nth-child(4) {
+  background-color: #ccccff;
+}
+
+.adv-item:nth-child(4) {
+  color: #330000;
+}
+
+.advantages:nth-child(5) {
+  background-color: white;
+}
+
+.adv-item:nth-child(5) {
+  color: black;
+}
+
+.advantages:nth-child(6) {
+  background-color: white;
+}
+
+.adv-item:nth-child(6) {
+  color: black;
+}
+
+.advantages:nth-child(7) {
+  background-color: white;
+}
+
+.adv-item:nth-child(7) {
+  color: black;
+}
+
+.advantages:nth-child(8) {
+  background-color: white;
+}
+
+.adv-item:nth-child(8) {
+  color: black;
+}
+
+.advantages:nth-child(9) {
+  background-color: white;
+}
+
+.adv-item:nth-child(9) {
+  color: black;
+}
+
+.advantages:nth-child(10) {
+  background-color: white;
+}
+
+.adv-item:nth-child(10) {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
